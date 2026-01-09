@@ -1,0 +1,72 @@
+[
+  {
+    "id": "collect_taxes",
+    "displayName": "Collect Taxes",
+    "sanityCost": 5,
+    "moneyCost": 0,
+    "artifactsCost": 0,
+    "sanityGain": 0,
+    "moneyGain": 18,
+    "artifactsGain": 0,
+    "influenceDelta": -1,
+    "stabilityDelta": -2,
+    "developmentDelta": 0,
+    "cooldownSeconds": 6
+  },
+  {
+    "id": "hold_festival",
+    "displayName": "Hold Festival",
+    "sanityCost": 0,
+    "moneyCost": 18,
+    "artifactsCost": 0,
+    "sanityGain": 6,
+    "moneyGain": 0,
+    "artifactsGain": 0,
+    "influenceDelta": 1,
+    "stabilityDelta": 1,
+    "developmentDelta": -1,
+    "cooldownSeconds": 14
+  },
+  {
+    "id": "research_grant",
+    "displayName": "Research Grant",
+    "sanityCost": 0,
+    "moneyCost": 20,
+    "artifactsCost": 0,
+    "sanityGain": 0,
+    "moneyGain": 0,
+    "artifactsGain": 0,
+    "influenceDelta": 0,
+    "stabilityDelta": -1,
+    "developmentDelta": 2,
+    "cooldownSeconds": 10
+  },
+  {
+    "id": "artifact_hunt",
+    "displayName": "Artifact Hunt",
+    "sanityCost": 5,
+    "moneyCost": 10,
+    "artifactsCost": 0,
+    "sanityGain": 0,
+    "moneyGain": 0,
+    "artifactsGain": 1,
+    "influenceDelta": 0,
+    "stabilityDelta": 0,
+    "developmentDelta": 0,
+    "cooldownSeconds": 15
+  },
+  {
+    "id": "propaganda_campaign",
+    "displayName": "Propaganda Campaign",
+    "sanityCost": 6,
+    "moneyCost": 8,
+    "artifactsCost": 0,
+    "sanityGain": 0,
+    "moneyGain": 0,
+    "artifactsGain": 0,
+    "influenceDelta": 2,
+    "stabilityDelta": 1,
+    "developmentDelta": -1,
+    "cooldownSeconds": 10
+  }
+]

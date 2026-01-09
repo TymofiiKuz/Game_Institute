@@ -1,0 +1,899 @@
+[
+  {
+    "id": 1,
+    "description": "Riots threaten to erupt in the market district as angry citizens demand immediate reforms.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Deploy the guard to scatter the crowd",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -2,
+        "stabilityChange": -2,
+        "developmentChange": 0
+      },
+      {
+        "text": "Meet with leaders and promise concessions",
+        "sanityRequired": 0,
+        "moneyRequired": 12,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 1,
+        "developmentChange": -1,
+        "minInfluenceRequired": 8
+      },
+      {
+        "text": "Launch sweeping reforms blessed by an artifact",
+        "sanityRequired": 0,
+        "moneyRequired": 20,
+        "artifactsRequired": 1,
+        "influenceChange": 1,
+        "stabilityChange": 2,
+        "developmentChange": 1,
+        "minInfluenceRequired": 10,
+        "modifiers": [
+          {
+            "name": "Reform Momentum",
+            "durationSeconds": 35,
+            "tickIntervalSeconds": 10,
+            "developmentPerTick": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "description": "Torrential floods wash through farmlands, leaving villages desperate for aid.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Let the region fend for itself",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -2,
+        "stabilityChange": -2,
+        "developmentChange": -1
+      },
+      {
+        "text": "Send engineers to rebuild the levees",
+        "sanityRequired": 0,
+        "moneyRequired": 18,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 1,
+        "developmentChange": 0,
+        "minInfluenceRequired": 8
+      },
+      {
+        "text": "Purge the floodwaters with relic power",
+        "sanityRequired": 0,
+        "moneyRequired": 25,
+        "artifactsRequired": 1,
+        "influenceChange": 1,
+        "stabilityChange": 2,
+        "developmentChange": 2,
+        "minInfluenceRequired": 10,
+        "modifiers": [
+          {
+            "name": "Swift Recovery",
+            "durationSeconds": 25,
+            "tickIntervalSeconds": 5,
+            "developmentPerTick": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "description": "A splinter noble house conspires against you, poisoning rumor and morale alike.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Ignore them and hope the storm passes",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": -1,
+        "developmentChange": 0
+      },
+      {
+        "text": "Buy loyalty with quiet favors",
+        "sanityRequired": 0,
+        "moneyRequired": 12,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 1,
+        "developmentChange": 0,
+        "minInfluenceRequired": 9
+      },
+      {
+        "text": "Expose the traitors with a seeing stone",
+        "sanityRequired": 0,
+        "moneyRequired": 15,
+        "artifactsRequired": 1,
+        "influenceChange": 2,
+        "stabilityChange": 1,
+        "developmentChange": 0,
+        "minInfluenceRequired": 11
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "description": "A mysterious plague creeps through hamlets, emptying streets overnight.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Dismiss the fear as superstition",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -2,
+        "stabilityChange": -3,
+        "developmentChange": -1
+      },
+      {
+        "text": "Fund healers and enforce quarantines",
+        "sanityRequired": 0,
+        "moneyRequired": 24,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 2,
+        "developmentChange": 0,
+        "minInfluenceRequired": 9
+      },
+      {
+        "text": "Use a sanctified relic to cleanse the land",
+        "sanityRequired": 0,
+        "moneyRequired": 30,
+        "artifactsRequired": 1,
+        "influenceChange": 1,
+        "stabilityChange": 3,
+        "developmentChange": 1,
+        "minInfluenceRequired": 11,
+        "modifiers": [
+          {
+            "name": "Purified Land",
+            "durationSeconds": 20,
+            "tickIntervalSeconds": 5,
+            "stabilityPerTick": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "description": "Inventors unveil a marvel that could redefine production across the realm.",
+    "isBadEvent": false,
+    "options": [
+      {
+        "text": "Scoff at their outlandish device",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": 0,
+        "developmentChange": -1
+      },
+      {
+        "text": "Allow private investors to back them",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 0,
+        "developmentChange": 1
+      },
+      {
+        "text": "Pour state funding into the project",
+        "sanityRequired": 0,
+        "moneyRequired": 20,
+        "artifactsRequired": 0,
+        "influenceChange": 1,
+        "stabilityChange": 0,
+        "developmentChange": 2
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "description": "Trade roads fall prey to relentless bandits, terrifying merchants and travelers.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Pretend nothing is wrong",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": -2,
+        "developmentChange": -1
+      },
+      {
+        "text": "Establish routine patrols",
+        "sanityRequired": 0,
+        "moneyRequired": 16,
+        "artifactsRequired": 0,
+        "influenceChange": 1,
+        "stabilityChange": 1,
+        "developmentChange": 0,
+        "minInfluenceRequired": 8
+      },
+      {
+        "text": "Unleash an elite strike force empowered by relics",
+        "sanityRequired": 0,
+        "moneyRequired": 25,
+        "artifactsRequired": 1,
+        "influenceChange": 2,
+        "stabilityChange": 2,
+        "developmentChange": 0,
+        "minInfluenceRequired": 11
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "description": "A whispering monolith fills villagers with dread and restless dreams.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Leave the monolith alone",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": -1,
+        "developmentChange": 0
+      },
+      {
+        "text": "Commission scholars to study it safely",
+        "sanityRequired": 0,
+        "moneyRequired": 20,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 0,
+        "developmentChange": 1,
+        "minInfluenceRequired": 9
+      },
+      {
+        "text": "Seal its power with sacred wards",
+        "sanityRequired": 0,
+        "moneyRequired": 15,
+        "artifactsRequired": 1,
+        "influenceChange": 2,
+        "stabilityChange": 2,
+        "developmentChange": 0,
+        "minInfluenceRequired": 10
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "description": "A firestorm ravages a major town, leaving survivors amid smoldering ruins.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Offer thoughts and prayers only",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": -2,
+        "developmentChange": -1
+      },
+      {
+        "text": "Send builders and relief wagons",
+        "sanityRequired": 0,
+        "moneyRequired": 20,
+        "artifactsRequired": 0,
+        "influenceChange": 1,
+        "stabilityChange": 2,
+        "developmentChange": 0,
+        "minInfluenceRequired": 8
+      },
+      {
+        "text": "Rebuild with artifact-fueled craftsmanship",
+        "sanityRequired": 0,
+        "moneyRequired": 30,
+        "artifactsRequired": 1,
+        "influenceChange": 1,
+        "stabilityChange": 3,
+        "developmentChange": 2,
+        "minInfluenceRequired": 10
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "description": "Wandering merchants spark dreams of distant horizons among your citizens.",
+    "isBadEvent": false,
+    "options": [
+      {
+        "text": "Silence the tales to keep order",
+        "sanityRequired": 5,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": 0,
+        "developmentChange": -1
+      },
+      {
+        "text": "Allow curiosity under strict watch",
+        "sanityRequired": 0,
+        "moneyRequired": 6,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 1,
+        "developmentChange": 0
+      },
+      {
+        "text": "Sponsor new caravans across the realm",
+        "sanityRequired": 0,
+        "moneyRequired": 18,
+        "artifactsRequired": 0,
+        "influenceChange": 1,
+        "stabilityChange": 0,
+        "developmentChange": 2
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "description": "A string of ritualistic murders chills a quiet village to the bone.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Dismiss the deaths as coincidence",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -2,
+        "stabilityChange": -2,
+        "developmentChange": 0
+      },
+      {
+        "text": "Hire investigators and night patrols",
+        "sanityRequired": 0,
+        "moneyRequired": 15,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 2,
+        "developmentChange": 0,
+        "minInfluenceRequired": 9
+      },
+      {
+        "text": "Cleanse the curse with a relic ritual",
+        "sanityRequired": 0,
+        "moneyRequired": 12,
+        "artifactsRequired": 1,
+        "influenceChange": 1,
+        "stabilityChange": 3,
+        "developmentChange": 0,
+        "minInfluenceRequired": 11
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "description": "An ancient library of sealed texts is uncovered beneath collapsed halls.",
+    "isBadEvent": false,
+    "options": [
+      {
+        "text": "Re-seal the knowledge for safety",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": 0,
+        "developmentChange": -1
+      },
+      {
+        "text": "Allow careful scholarly study",
+        "sanityRequired": 0,
+        "moneyRequired": 15,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 0,
+        "developmentChange": 2
+      },
+      {
+        "text": "Preserve the hall with artifact wards",
+        "sanityRequired": 0,
+        "moneyRequired": 18,
+        "artifactsRequired": 1,
+        "influenceChange": 1,
+        "stabilityChange": 1,
+        "developmentChange": 3
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "description": "Foreign envoys seek alliances, promising rich exchanges\u2014and hidden agendas.",
+    "isBadEvent": false,
+    "options": [
+      {
+        "text": "Reject every offer",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": 2,
+        "developmentChange": -1
+      },
+      {
+        "text": "Negotiate cautious treaties",
+        "sanityRequired": 0,
+        "moneyRequired": 10,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 1,
+        "developmentChange": 1
+      },
+      {
+        "text": "Forge a grand alliance",
+        "sanityRequired": 0,
+        "moneyRequired": 15,
+        "artifactsRequired": 0,
+        "influenceChange": 2,
+        "stabilityChange": 0,
+        "developmentChange": 2
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "description": "An unforgiving drought bleaches the fields and empties reservoirs.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Blame the farmers for laziness",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -2,
+        "stabilityChange": -2,
+        "developmentChange": -1
+      },
+      {
+        "text": "Import emergency grain",
+        "sanityRequired": 0,
+        "moneyRequired": 26,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 2,
+        "developmentChange": 0,
+        "minInfluenceRequired": 8
+      },
+      {
+        "text": "Summon blessed rains with a relic",
+        "sanityRequired": 0,
+        "moneyRequired": 20,
+        "artifactsRequired": 1,
+        "influenceChange": 1,
+        "stabilityChange": 3,
+        "developmentChange": 1,
+        "minInfluenceRequired": 10
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "description": "A zealous sect preaches upheaval, drawing crowds and stirring unrest.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Crush the sect with force",
+        "sanityRequired": 0,
+        "moneyRequired": 10,
+        "artifactsRequired": 0,
+        "influenceChange": 1,
+        "stabilityChange": -2,
+        "developmentChange": 0
+      },
+      {
+        "text": "Watch them closely while negotiating",
+        "sanityRequired": 0,
+        "moneyRequired": 6,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 0,
+        "developmentChange": 1,
+        "minInfluenceRequired": 8
+      },
+      {
+        "text": "Fold the sect into state faith with relic rites",
+        "sanityRequired": 0,
+        "moneyRequired": 15,
+        "artifactsRequired": 1,
+        "influenceChange": 2,
+        "stabilityChange": 2,
+        "developmentChange": 1,
+        "minInfluenceRequired": 10
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "description": "A charismatic bard captivates crowds with songs of change and hope.",
+    "isBadEvent": false,
+    "options": [
+      {
+        "text": "Exile the bard and seize the instruments",
+        "sanityRequired": 5,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": -2,
+        "developmentChange": 0
+      },
+      {
+        "text": "Permit performances under guard",
+        "sanityRequired": 0,
+        "moneyRequired": 5,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 0,
+        "developmentChange": 1
+      },
+      {
+        "text": "Sponsor the bard\u2019s tour",
+        "sanityRequired": 0,
+        "moneyRequired": 10,
+        "artifactsRequired": 0,
+        "influenceChange": 2,
+        "stabilityChange": 1,
+        "developmentChange": 1
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "description": "Whispering crystal veins lure miners with fortune\u2014and madness.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Seal the tunnels and post warnings",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": -1,
+        "developmentChange": 0
+      },
+      {
+        "text": "Mine carefully with protective wards",
+        "sanityRequired": 0,
+        "moneyRequired": 15,
+        "artifactsRequired": 0,
+        "influenceChange": 1,
+        "stabilityChange": 0,
+        "developmentChange": 1,
+        "minInfluenceRequired": 8
+      },
+      {
+        "text": "Extract crystals using artifact containment",
+        "sanityRequired": 0,
+        "moneyRequired": 20,
+        "artifactsRequired": 1,
+        "influenceChange": 2,
+        "stabilityChange": 2,
+        "developmentChange": 2,
+        "minInfluenceRequired": 10
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "description": "A solar eclipse plunges villages into terror as rumors of curses spread.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Declare it divine punishment",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -2,
+        "stabilityChange": -2,
+        "developmentChange": 0
+      },
+      {
+        "text": "Reassure citizens with enlightened speeches",
+        "sanityRequired": 0,
+        "moneyRequired": 10,
+        "artifactsRequired": 0,
+        "influenceChange": 1,
+        "stabilityChange": 1,
+        "developmentChange": 0,
+        "minInfluenceRequired": 8
+      },
+      {
+        "text": "Hold a protective ritual using sacred relics",
+        "sanityRequired": 0,
+        "moneyRequired": 15,
+        "artifactsRequired": 1,
+        "influenceChange": 1,
+        "stabilityChange": 2,
+        "developmentChange": 0,
+        "minInfluenceRequired": 10
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "description": "Children across a hamlet speak in eerie unison, unsettling the populace.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Exile the children to end the fright",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": -2,
+        "developmentChange": -1
+      },
+      {
+        "text": "Provide calm care and study",
+        "sanityRequired": 0,
+        "moneyRequired": 15,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 1,
+        "developmentChange": 1,
+        "minInfluenceRequired": 8
+      },
+      {
+        "text": "Silence the curse with relic intervention",
+        "sanityRequired": 0,
+        "moneyRequired": 10,
+        "artifactsRequired": 1,
+        "influenceChange": 2,
+        "stabilityChange": 2,
+        "developmentChange": 0,
+        "minInfluenceRequired": 10
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "description": "A famed general petitions for a campaign to expand your borders.",
+    "isBadEvent": false,
+    "options": [
+      {
+        "text": "Dismiss him to maintain peace",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": 1,
+        "developmentChange": 0
+      },
+      {
+        "text": "Authorize limited raids",
+        "sanityRequired": 0,
+        "moneyRequired": 20,
+        "artifactsRequired": 0,
+        "influenceChange": 1,
+        "stabilityChange": 0,
+        "developmentChange": 1
+      },
+      {
+        "text": "Fund a full conquest",
+        "sanityRequired": 0,
+        "moneyRequired": 40,
+        "artifactsRequired": 0,
+        "influenceChange": 3,
+        "stabilityChange": -1,
+        "developmentChange": 2
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "description": "A wanderer foretells doom, unsettling the court with dire prophecies.",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Expel the wanderer immediately",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": 1,
+        "developmentChange": 0
+      },
+      {
+        "text": "Let him speak while watched",
+        "sanityRequired": 0,
+        "moneyRequired": 5,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 0,
+        "developmentChange": 1,
+        "minInfluenceRequired": 8
+      },
+      {
+        "text": "Heed the warning with artifact-backed defenses",
+        "sanityRequired": 0,
+        "moneyRequired": 15,
+        "artifactsRequired": 1,
+        "influenceChange": 2,
+        "stabilityChange": 2,
+        "developmentChange": 1,
+        "minInfluenceRequired": 10
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "description": "A celestial alignment sparks a worldwide pilgrimage, knitting distant cultures together overnight.",
+    "scope": "Global",
+    "isBadEvent": false,
+    "options": [
+      {
+        "text": "Bless and coordinate the pilgrim routes",
+        "sanityRequired": 0,
+        "moneyRequired": 25,
+        "artifactsRequired": 0,
+        "influenceChange": 1,
+        "stabilityChange": 1,
+        "developmentChange": 0
+      },
+      {
+        "text": "Sell transit permits and relics",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "moneyChange": 20,
+        "influenceChange": -1,
+        "stabilityChange": 0,
+        "developmentChange": 0
+      },
+      {
+        "text": "Discourage mass gatherings",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": -1,
+        "stabilityChange": 2,
+        "developmentChange": -1
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "description": "A blight creeps through global grain stores, threatening shortages everywhere.",
+    "scope": "Global",
+    "isBadEvent": true,
+    "options": [
+      {
+        "text": "Ration supplies and tighten ports",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": -1,
+        "developmentChange": -1
+      },
+      {
+        "text": "Import emergency shipments",
+        "sanityRequired": 0,
+        "moneyRequired": 30,
+        "artifactsRequired": 0,
+        "influenceChange": 0,
+        "stabilityChange": 1,
+        "developmentChange": 0
+      },
+      {
+        "text": "Purge the blight with artifact fire",
+        "sanityRequired": 0,
+        "moneyRequired": 15,
+        "artifactsRequired": 1,
+        "influenceChange": 1,
+        "stabilityChange": 2,
+        "developmentChange": 1
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "description": "Spymaster Liora delivers dossiers on a suspected conspiracy within your council.",
+    "scope": "Personal",
+    "isBadEvent": false,
+    "featuredPeople": [
+      {
+        "name": "Liora Vance",
+        "position": "Spymaster",
+        "gender": "Female"
+      },
+      {
+        "name": "Brother Cassian",
+        "position": "Archivist",
+        "gender": "Male"
+      }
+    ],
+    "options": [
+      {
+        "text": "Approve quiet arrests based on the dossiers",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "sanityChange": -1,
+        "moneyChange": -5,
+        "artifactsChange": 0
+      },
+      {
+        "text": "Stage a public loyalty trial",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "sanityChange": -2,
+        "moneyChange": 10,
+        "artifactsChange": 0
+      },
+      {
+        "text": "Hold off and keep watching",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "sanityChange": 2,
+        "moneyChange": 0,
+        "artifactsChange": 0
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "description": "Court physician Dr. Amina insists you rest after fainting during council.",
+    "scope": "Personal",
+    "isBadEvent": false,
+    "featuredPeople": [
+      {
+        "name": "Dr. Amina Khaldun",
+        "position": "Court Physician",
+        "gender": "Female"
+      },
+      {
+        "name": "Captain Ilya",
+        "position": "Guard Captain",
+        "gender": "Male"
+      }
+    ],
+    "options": [
+      {
+        "text": "Take a full day of rest",
+        "sanityRequired": 0,
+        "moneyRequired": 5,
+        "artifactsRequired": 0,
+        "sanityChange": 3,
+        "moneyChange": -5,
+        "artifactsChange": 0
+      },
+      {
+        "text": "Push through the exhaustion",
+        "sanityRequired": 0,
+        "moneyRequired": 0,
+        "artifactsRequired": 0,
+        "sanityChange": -3,
+        "moneyChange": 0,
+        "artifactsChange": 0
+      },
+      {
+        "text": "Undergo an artifact rejuvenation",
+        "sanityRequired": 0,
+        "moneyRequired": 10,
+        "artifactsRequired": 1,
+        "sanityChange": 5,
+        "moneyChange": -10,
+        "artifactsChange": -1
+      }
+    ]
+  }
+]
